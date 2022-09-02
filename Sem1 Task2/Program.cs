@@ -4,18 +4,23 @@
 // =======================================================
 
 
-string? inputLineA = Console.ReadLine();
-string? inputLineB = Console.ReadLine();
+string? inputLineA = Console.ReadLine(); //считали первое число от пользователя 
+string? inputLineB = Console.ReadLine(); //считали второе число от пользователя
 
-if (inputLineA != null && inputLineB != null)
+        
+if (inputLineA != null && inputLineB != null) // проверили что было не было пустым
+
 {
-    int inputNumberA = int.Parse(inputLineA);
-    int inputNumberB = int.Parse(inputLineB);
+    int inputNumberA = int.Parse(inputLineA); // превратили значение в целое число
+    int inputNumberB = int.Parse(inputLineB); // превратили значение в целое число
 
-        if (inputNumberA > inputNumberB) // убедились что число 3-х значное
-
-    Console.WriteLine("Число А больше числа В");
+// {
+// if (inputNumberA = inputNumberB) // Проверили сравнение чисел
+//     Console.WriteLine("Числа равны");
+// }
+        if (inputNumberA > inputNumberB) // Проверили сравнение чисел
+    Console.WriteLine("Число 1 больше числа 2");
     else
-    Console.WriteLine("Число B больше числа A");
+    Console.WriteLine("Число 2 больше числа 1");
 
 }

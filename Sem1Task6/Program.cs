@@ -21,4 +21,3 @@ if (inputLineA != null) // проверили что было не было пу
         else
         Console.WriteLine("Число не четное");
 }
-    
