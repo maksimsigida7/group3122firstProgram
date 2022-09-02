@@ -12,8 +12,8 @@ if (inputLineA != null && inputLineB != null)
     int inputNumberA = int.Parse(inputLineA);
     int inputNumberB = int.Parse(inputLineB);
 
-    bool outRusult = (inputNumberA * inputNumberA == inputNumberB);
-
+    //bool outRusult = (inputNumberA * inputNumberA == inputNumberB);
+    bool outRusult = (inputNumberB / inputNumberA == inputNumberA);
 
     Console.WriteLine(outRusult);
 }
