@@ -13,7 +13,9 @@ if (inputLineA != null && inputLineB != null)
     int inputNumberB = int.Parse(inputLineB);
 
     //bool outRusult = (inputNumberA * inputNumberA == inputNumberB);
-    bool outRusult = (inputNumberB / inputNumberA == inputNumberA);
+    //bool outRusult = (inputNumberB / inputNumberA == inputNumberA);
+    bool outRusult = (Math.Sqrt (inputNumberB) == inputNumberA);
+
 
     Console.WriteLine(outRusult);
 }
