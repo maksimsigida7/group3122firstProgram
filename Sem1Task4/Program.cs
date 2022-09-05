@@ -16,17 +16,18 @@ if (inputLineA != null && inputLineB != null && inputLineX != null) // пров�
     int inputNumberB = int.Parse(inputLineB); // превратили значение в целое число
     int inputNumberX = int.Parse(inputLineX); // превратили значение в целое число
 
-
- if (inputNumberA > inputNumberB && inputNumberA > inputNumberX)
-    {
-        Console.WriteLine("Число A Максимальное");
-    }
-        else
-        if (inputNumberB > inputNumberA && inputNumberB > inputNumberX)
-        {
-            Console.WriteLine("Число B Максимальное");
-        }
-            else 
-            Console.WriteLine("Число X Максимальное");
+int D = Math.Max(inputNumberA, Math.Max(inputNumberB, inputNumberX));
+//  if (inputNumberA > inputNumberB && inputNumberA > inputNumberX)
+//     {
+//         Console.WriteLine("Число A Максимальное");
+//     }
+//         else
+//         if (inputNumberB > inputNumberA && inputNumberB > inputNumberX)
+//         {
+//             Console.WriteLine("Число B Максимальное");
+//         }
+//             else 
+        Console.Write(D);
+        Console.Write (" - Максимальное число");
 }
     
