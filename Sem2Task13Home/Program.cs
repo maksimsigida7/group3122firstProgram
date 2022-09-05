@@ -30,5 +30,7 @@ void Variant2()
     int inputNumberA = int.Parse(inputLineA);
 
     char[] charArray = inputNumberA.ToString().ToCharArray(); // Превращаем число в массив символов
-    Console.WriteLine(charArray[2]);
+    Console.WriteLine(charArray[2]); // Выводим вторую цифру массива
 }
+Variant1();
+Variant2();
