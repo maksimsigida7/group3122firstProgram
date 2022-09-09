@@ -35,4 +35,4 @@ int x2 = ReadData("Введите x2: ");
 int y2 = ReadData("Введите y2: ");
 
 // Выдаем результат
-PrintResult(CalcData(x1, x2, y1, y2).ToString());
+PrintResult("Расстояние между точками: " + Math.Round(CalcData(x1, x2, y1, y2),2).ToString());
