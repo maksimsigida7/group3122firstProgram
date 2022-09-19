@@ -5,17 +5,16 @@ void Variant1()
 //Вариант только с 3-х значными числами.
 {
     Console.Write("Введите число: ");
-string? inputLineA = Console.ReadLine();
-int inputNumberA = int.Parse(inputLineA);
+    string? inputLineA = Console.ReadLine();
+    int inputNumberA = int.Parse(inputLineA);
 
-if (inputNumberA > 100 && inputNumberA < 1000)
-{
-        //int firstDigit = inputNumberA / 100; // Получили старшее число
-        int lastDigit = inputNumberA % 10; //определили число младшего разряда
+    if (inputNumberA > 100 && inputNumberA < 1000)
+    {
+        int lastDigit = inputNumberA % 10;
         Console.WriteLine("Третья цифра заданного числа: " + lastDigit);
     }
-else
-{
+    else
+    {
         Console.WriteLine("Число не 3-х значное");
     }
 }

@@ -28,7 +28,6 @@ string LinNumbers(int numberN, int pow)
 }
 
 void PrintResult(string line)
-
 {
     Console.WriteLine(line);
 }

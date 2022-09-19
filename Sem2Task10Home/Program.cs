@@ -21,19 +21,19 @@ void VariantNomer1()
 // ============================================================================
 void VariantNomer2()
 
-  {
+{
     Console.Write("Введите число: ");
     string? inputLineA = Console.ReadLine();
     int inputNumberA = int.Parse(inputLineA);
 
     char[] charArray = inputNumberA.ToString().ToCharArray(); // Превращаем число в массив символов
     Console.WriteLine(charArray[2]); // Выводим вторую цифру массива
- 
+
     // else
     // {
     //     Console.WriteLine("Число не 3-х значное");
     // }
 
-  }
-  VariantNomer1();
-  VariantNomer2();
+}
+VariantNomer1();
+VariantNomer2();

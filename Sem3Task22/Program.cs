@@ -28,11 +28,10 @@ string LinNumbers(int numberN, int pow)
 }
 
 void PrintResult(string line)
-
 {
     Console.WriteLine(line);
 }
 
 int num = ReadData("Введите число N: ");
 PrintResult(LinNumbers(num,1));
-PrintResult(LinNumbers(num,2));
+PrintResult(LinNumbers(num,3));
