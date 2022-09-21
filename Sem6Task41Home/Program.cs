@@ -36,6 +36,5 @@ int Count(int M)
 }
 
 int num = ReadData("Введи число М (количество чисел): ");
-
 int numbCount = Count(num);
 PrintResult("Количество чисел больше 0: " + numbCount);
