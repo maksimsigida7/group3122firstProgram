@@ -28,7 +28,7 @@ void FillArrRandNum(int[] numbers)
     }
 }
 
-//Печать.
+//Печать .
 
 void PrintArray(int[] numbers)
 {
