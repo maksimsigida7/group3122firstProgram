@@ -9,7 +9,7 @@ int m = Convert.ToInt32(Console.ReadLine());
 int[,] numbers = new int[n, m];
 FillArrayRandomNumbers(numbers);
 
-//Генерируем массив
+//Генерируем массив.
 void FillArrayRandomNumbers(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -35,7 +35,7 @@ void PrintArray(int[,] array)
     }
 }
 
-//Поиск и печать среднего арифметического
+//Поиск и печать среднего арифметического.
 for (int j = 0; j < numbers.GetLength(1); j++)
 {
     double avarage = 0;
