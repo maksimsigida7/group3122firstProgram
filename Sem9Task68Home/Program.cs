@@ -9,7 +9,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 AkkermanFunction(m,n);
 
-
 // вызов функции Аккермана
 void AkkermanFunction(int m, int n)
 {
